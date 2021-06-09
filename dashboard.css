@@ -1,0 +1,171 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    text-align:center;
+  }
+  h1{
+  font-family: 'Open Sans-Black', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+  }
+  .container-fluid{
+    padding:7% 15%;
+    margin: 0px;
+  }
+  /* headings */
+  .section-heading
+  {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  #title{
+    padding-top:7%;
+  
+  }
+  #title .container-fluid{
+    text-align: left;
+    padding: 3% 15% 7%;
+  }
+  /* sections*/
+  .white-section{
+  background-color: white;
+  }
+  .colored-section{
+    background-color: ;
+  }
+  .btno{
+    margin:2px;
+  }
+  /* Nav bar */
+  .navbar{
+    margin-bottom: 4.5rem;
+  }
+  .navbar-brand{
+    font-size: 2rem;
+      font-weight: bold;
+  
+  }
+  .nav-item{
+    padding: 0px 18px;
+  }
+  .nav-link{
+    font-size: 1.5rem;
+    font-family: 'Open Sans-Light',;
+  }
+  .new{
+    background-color: red;
+    margin: 20px;
+    height: 200px;
+    width:200px;
+  }
+  /* features section */
+  .feature-heading
+  {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .fb{
+    padding:4.5%;
+  }
+  .icon{
+    color:steelblue;
+    margin-bottom:16px;
+  }
+  .icon:hover{
+    color: powderblue;
+  }
+  .pa{
+    color: #8f8f8f;
+  }
+  /*
+  /* footer */
+  #footer{
+    color:white;
+    background-image: url(photo-1569982175971-d92b01cf8694.jfif);
+  }
+  
+  .ficon{
+    margin:20px 10px;
+  }
+  /* vertical navbar */
+  @media(max-width:1028px){
+  #profile{
+   padding-top:7%;
+  }
+  }
+  .image{
+    width: 200px;
+    height:200px;
+    border-radius: 100%;
+  }
+  #footer .container-fluid{
+    padding:3% 15%;
+  }
+  /* card section */
+  .card-img-top{
+    height:400px;
+  }
+  .card{
+    padding: 10%;
+  }
+  #card{
+    background-image: url(https://www.pexels.com/photo/129731/download/?search_query=&tracking_id=3o5idwg13h7);
+  }
+  /* vertical navbar */
+  
+  #v-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: black;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    color:white;
+  }
+  
+  #v-nav li a {
+    display: block;
+    color: white;
+      padding: 8px 16px;
+    text-decoration: none;
+    }
+  
+  #v-nav li a.active {
+    background-color: #e4f9ff;
+    color: steelblue  ;
+  }
+  
+  #v-nav li a:hover:not(.active) {
+    background-color: #12cad6 ;
+    color: white;
+  }
+  #v-nav{
+    padding: 0px;
+    margin:0px;
+  }
+  @media(max-width:1028px){
+    #v-nav{
+    padding-top:7%;
+  }
+  }
+  /* content */
+  .content{
+    margin-left:20%;
+  }
+  #pp{
+    border-radius: 50%;
+
+  }
+  #details{
+      background-color: whitesmoke;
+  }
+  body{
+    background-image: url(https://images.unsplash.com/photo-1569982175971-d92b01cf8694?ixlib=rb-1.2.1&w=1000&q=80);
+  }
+  #sd{
+    font-weight: 300;
+    font-size: 50px;
+  }
